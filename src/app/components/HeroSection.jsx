@@ -36,8 +36,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a React developer dedicated to crafting visually stunning and
-            highly functional websites, aiming to deliver seamless user
+            I&apos;m a React developer dedicated to crafting visually stunning
+            and highly functional websites, aiming to deliver seamless user
             experiences. Passionate about leveraging technology to create
             impactful digital solutions that meet client objectives and enhance
             user satisfaction.
