@@ -46,8 +46,30 @@ const projectsData = [
     image: "/images/projects/luxe.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/muhammad-2002/Assignment-9",
-    gitUrl2: "https://github.com/muhammad-2002/Assignment-9",
+    gitUrl2: "",
     previewUrl: "https://luxe-living-8bd7a.web.app/",
+  },
+  {
+    id: 5,
+    title: "Book Vive",
+    description:
+      "Welcome to My Awesome Book Vibe Website! Here, you can explore a variety of engaging features including a responsive design that ensures a seamless experience across all devices. Enjoy an interactive user interface with advanced sorting functionality and easy navigation. Check out the About section to see our activities and learn more about our mission. Dive into the Book Details section to get comprehensive information about each book.",
+    image: "/images/projects/book.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/muhammad-2002/Assignment-8",
+    gitUrl2: "",
+    previewUrl: "https://hero-assignment-8.surge.sh/",
+  },
+  {
+    id: 6,
+    title: "Recipe Calories",
+    description:
+      "Recipe Calories is a React application where users can add various food items to a list. Each food item includes its name, quantity, and calorie content. The app automatically calculates and displays the total calories consumed based on the added items. It provides an intuitive interface for users to manage their dietary intake effectively",
+    image: "/images/projects/recepi.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/muhammad-2002/Assignment-7",
+    gitUrl2: "",
+    previewUrl: "http://hero-assignment-7.surge.sh/",
   },
 ];
 

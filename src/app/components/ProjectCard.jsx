@@ -37,13 +37,15 @@ const ProjectCard = ({
           >
             <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
-          <Link
-            href={gitUrl2}
-            target="_blank"
-            className="h-14 w-14 ml-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-          </Link>
+          {gitUrl2 && (
+            <Link
+              href={gitUrl2}
+              target="_blank"
+              className="h-14 w-14 ml-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </Link>
+          )}
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
